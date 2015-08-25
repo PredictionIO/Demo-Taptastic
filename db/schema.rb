@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 20150109223518) do
     t.string   "title"
     t.string   "categories"
     t.string   "episode_url"
-    t.string   "image_urls"
+    t.text   "image_urls"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
